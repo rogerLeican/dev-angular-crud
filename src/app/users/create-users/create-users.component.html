@@ -1,5 +1,4 @@
 <p>Criar Usuário!</p>
-
 <div>
 <label> Nome:
 <input placeholder="Insira o nome"[(ngModel)]="request.name">
@@ -9,11 +8,12 @@
 <label>Profissão:
 <input placeholder="Insira a Profissão"[(ngModel)]="request.job">
 </label>
-<br>
-<br>
-<button (click)="save()">Gravar</button>
 <br><br>
+<button (click)="save()">Gravar</button>
 </div>
+
+<br><br>
+
 <div *ngIf="response">
 <h3>Criado com sucesso!!</h3>
 <label>Nome:{{response.name}}</label><br>

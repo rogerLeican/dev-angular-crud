@@ -9,6 +9,8 @@ import { UsersComponent } from './users/users.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CreateUsersComponent } from './users/create-users/create-users.component';
 import { FormsModule } from "@angular/forms";
+import { UpdadeComponent } from './users/updade/updade.component';
+import { DeleteUserComponent } from './users/delete-user/delete-user.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { FormsModule } from "@angular/forms";
     Pagina01Component,
     Pagina02Component,
     UsersComponent,
-    CreateUsersComponent
+    CreateUsersComponent,
+    UpdadeComponent,
+    DeleteUserComponent
   ],
   imports: [
     BrowserModule,
